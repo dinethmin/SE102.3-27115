@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Form</title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Registration Form</h1>
+        <br>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input type="text" name="fName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        <input type="text" name="lName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile Number
+                    </td>
+                    <td>
+                        <input type="number" name="mNumber">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" value="M">Male
+                        <input type="radio" name="Gender" value="F">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        <input type="email" name="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Favourite Music
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Music" value="pop">POP
+                        <input type="checkbox" name="Music" value="rock">Rock
+                        <input type="checkbox" name="Music" value="other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Additional Details
+                    </td>
+                    <td>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="checkbox" name="tick">I agree to the terms and conditions
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
 </html>
